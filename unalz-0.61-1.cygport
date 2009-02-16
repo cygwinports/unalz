@@ -1,0 +1,14 @@
+DESCRIPTION="ALZip archive decompression utility"
+HOMEPAGE="http://www.kipple.pe.kr/win/unalz/"
+SRC_URI="http://www.kipple.pe.kr/win/unalz/${P}.tgz"
+SRC_DIR="${PN}"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake posix
+}
+
+src_install() {
+	dobin ${B}/*.exe
+}

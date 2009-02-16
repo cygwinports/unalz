@@ -1,0 +1,51 @@
+unalz
+------------------------------------------
+ALZip archive decompression utility
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libiconv2-1.11-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://www.kipple.pe.kr/win/unalz/
+
+Canonical download:
+  http://www.kipple.pe.kr/win/unalz/
+
+-------------------------------------------
+
+Build instructions:
+  unpack unalz-0.61-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./unalz-0.61-X.cygport all
+
+This will create:
+  /usr/src/unalz-0.61-X-src.tar.bz2
+  /usr/src/unalz-0.61-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/unalz.exe
+  /usr/share/doc/unalz-0.61/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 0.61-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
