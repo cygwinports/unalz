@@ -1,4 +1,4 @@
 category: Archive
-requires: cygwin libiconv2
+requires: libiconv2
 sdesc: "ALZip archive decompression utility"
 ldesc: "ALZip archive decompression utility"
